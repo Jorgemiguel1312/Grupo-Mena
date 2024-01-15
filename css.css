@@ -1,0 +1,122 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body {  
+    background-color: black;
+}
+
+
+
+#navbar {
+    background-color: rgba(255, 255, 255, 0) ;
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: right;
+    
+}
+
+.li_navbar {
+    display: inline;
+    justify-content: right;
+    
+}
+
+.li_navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+#navbar1 {
+    background-color: rgba(255, 255, 255, 0) ;
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 1350px;
+    flex-direction: row;
+    text-align: right;
+    margin-top: -60px;
+    
+}
+
+#navbar2 {
+    background-color: rgba(255, 255, 255, 0) ;
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 1400px;
+    flex-direction: row;
+    text-align: left;
+    margin-top: -70px;    
+}
+
+
+.li_navbar {
+    display: inline;
+    justify-content: right;
+}
+
+.li_navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+        
+#header {
+    width: 500px;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+#menu li a{
+    display: block;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+#menu li a:hover {
+    background-color: #1162ac;
+}
+
+#menu > li {
+    float: left;
+}
+
+#menu li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+#menu li:hover > ul {
+    display: block;
+}
+
+#menu li ul li {
+    position: relative;
+}
+
+#menu li ul li ul {
+    right: -140px;
+    top: 0px;
+}
+
+#p1 {
+color: white;
+font-family: "Lemon", serif;
+font-weight: 400;
+font-style: normal;
+}
